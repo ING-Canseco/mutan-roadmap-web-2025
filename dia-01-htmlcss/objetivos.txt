@@ -1,0 +1,41 @@
+Objetivo: reforzar estructura HTML + Flexbox básico
+1️⃣ Video (15 min)
+
+👉 https://youtu.be/G3e-cpL7ofc
+
+"Curso rápido de HTML y CSS (Fazt)" → Solo ver desde el minuto 00:00 al 15:00
+
+2️⃣ Lectura (10 min)
+
+📝 MDN: ¿Qué es un layout con Flexbox?
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceptos_Basicos_del_Flexible_Box_Layout
+
+3️⃣ Ejercicio práctico (35 min restantes)
+
+Crea una carpeta llamada dia-01-htmlcss
+
+Dentro crea index.html y styles.css
+
+Maqueta lo siguiente usando Flexbox:
+    """
+    HEADER
+    (un nav con 3 links)
+    MAIN
+    Título H1
+    Un párrafo
+    Una imagen cualquiera (usa URL externa)
+    FOOTER
+    Texto ©2025
+    """
+
+Usa Flexbox solo en el NAV para centrar horizontalmente los links.
+
+4️⃣ Tarea final
+
+✅ Subir esa carpeta al repositorio GitHub en una carpeta /semana1/dia-01
+✅ Escribir un pequeño README.md con:
+    """
+    ¿Qué repasé hoy?
+    ¿Qué aprendí o reforcé?
+    ¿Qué me costó?
+    """

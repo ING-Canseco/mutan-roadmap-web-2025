@@ -1,0 +1,76 @@
+﻿El eje principal está definido por flex-direction, que posee cuatro posibles valores:
+
+-row: va de izquierda a derecha
+-row-reverse: va de derecha a izquierda
+-column: va de arriba hacia abajo
+-column-reverse: va de abajo ahacia arriba
+
+Un área del documento que contiene un flexbox es llamada contendedor (flex). Para crear un contenedor (flex), 
+establecemos la propiedad del área del contenedor (display) como (flex) o (inline-flex). Tan pronto como 
+hacemos esto, los hijos directos de este contenedor se vuelven ítems (flex). Como con todas las propiedades
+de CSS, se definen algunos valores iniciales, así que cuando creemos un contenedor flex todos los ítems 
+flex contenidos se comportarán de la siguiente manera.
+
+    -Los ítems se despliegan sobre una fila (la propiedad flex-direction por defecto es row).
+    -Los ítems empiezan desde el margen inicial sobre el eje principal.
+    -Los ítems no se ajustan en la dimensión principal, pero se pueden contraer.
+    -Los ítems se ajustarán para llenar el tamaño del eje cruzado.
+    -La propiedad flex-basis es definida como auto.
+    -La propiedad flex-wrap es definida como nowrap.
+
+Se puede ver en el ejercicio en vivo de abajo cómo luce. Intente editar el ítem o añadir ítems 
+adicionales para así probar el comportamiento inicial de flexbox.
+
+    .CSS
+
+        .box {
+        display: flex;
+        }
+
+    .HTML   
+        <div class="box">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three
+            <br>has
+            <br>extra
+            <br>text
+        </div>
+        </div>
+
+El ejemplo en vivo de abajo tiene (flex-direction) puesto como (row-reverse). Pruebe los otros valores — (row, 
+column) y (column-reverse) — para ver qué sucede con el contenido.
+
+    .CSS
+        .box {
+        display: flex;
+        flex-direction: row-reverse;
+        }
+
+    .HTML
+        <div class="box">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        </div>
+
+Para lograr repartirse en varias líneas añada la propiedad (flex-wrap) con el valor (wrap). Cuando los ítems 
+sean demasiados para desplegarlos en una línea, serán repartidos en la línea siguiente. El ejemplo en 
+vivo de abajo contiene ítems que se les ha asignando un ancho, donde el ancho total de los ítems excede 
+al del contenedor (flex). Cuando (flex-wrap) se coloca como (wrap), los ítems se repartirán. Al colocarlo como 
+(nowrap), el cual es el valor inicial, estos se contraerán para calzar con el contenedor ya que usan los 
+valores iniciales de flexbox que permiten que los ítems se contraigan. Al usar nowrap los ítems podrían 
+salirse del margen si estos no pudieran contraerse, o no contraerse lo suficiente para ser calzados.
+
+    .CSS
+        .box {
+        display: flex;
+        flex-wrap: wrap;
+        }
+    .HTML
+        <div class="box">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        </div>
+

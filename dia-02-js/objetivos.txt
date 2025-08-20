@@ -1,0 +1,28 @@
+1️⃣ Video (20 min):
+
+👉 https://youtu.be/z95mZVUcJ-E
+
+"JavaScript desde CERO #1 ➜ variables, console.log"
+
+2️⃣ Ejercicios prácticos JS (60 min)
+
+Crear carpeta dia-02-js
+
+Crea archivo ejercicios.js
+
+Escribir lo siguiente en JS:
+
+Declarar variable nombre = "TuNombre".
+→ console.log("Hola, me llamo " + nombre);
+
+Programa que sume dos números: 5 y 13, mostrar resultado por consola.
+
+Programa que detecte si un número es par. Ej: let num = 7
+
+3️⃣ Tarea Markdown
+
+En README.md escribe:
+
+    ¿Qué aprendí de JS?
+    ¿Diferencias entre var, let y const (breve)?
+    Ejemplo de algo que no supe y tuve que buscar.
